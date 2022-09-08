@@ -38,6 +38,6 @@ steps:
       - --expose=80
 
 substitutions:
-  _GCR_REGION: us # must be substituted
+  _GCR_REGION: eu # must be substituted
   _GKE_CLUSTER_LOCATION: us-central1-a # must be substituted
   _GKE_CLUSTER_NAME: cluster-1 # must be substituted
